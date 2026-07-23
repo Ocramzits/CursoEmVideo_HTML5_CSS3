@@ -3,11 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: rgb(36, 35, 35);
+        color: #fff;
+        font-family:
+          "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+          Arial, sans-serif;
+      }
+    </style>
     <title>Vídeos</title>
   </head>
   <body>
     <h1>Vídeo hospedado localmente</h1>
     <video
+      loop
       src="13255250_1080_1920_30fps.mp4"
       width="400"
       height="700"
@@ -15,5 +25,42 @@
     ></video>
     <hr />
     <h1>Vídeo em hospedagem externa</h1>
+    <h2>YouTube</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/3hng-hmSv2Y?si=hCMcdHAmLSKrKTrg"
+      title="YouTube video player"
+      frameborder="0"
+      allow="
+        accelerometer;
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        gyroscope;
+        picture-in-picture;
+        web-share;
+      "
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>Vimeo</h2>
+    <iframe
+      title="vimeo-player"
+      src="https://player.vimeo.com/video/1193944745?h=f818df2f3e"
+      width="640"
+      height="360"
+      frameborder="0"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allow="
+        autoplay;
+        fullscreen;
+        picture-in-picture;
+        clipboard-write;
+        encrypted-media;
+        web-share;
+      "
+      allowfullscreen
+    ></iframe>
   </body>
 </html>
