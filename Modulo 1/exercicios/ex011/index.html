@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../../desafios/d002/imagens/favicon.ico"
+      type="image/x-icon"
+    />
+    <style>
+      body {
+        background-color: rgb(26, 26, 26);
+        color: aliceblue;
+      }
+    </style>
+    <title>Imagens Dinâmicas</title>
+  </head>
+  <body>
+    <h1>Imagem dinâmica</h1>
+    <p>
+      Você pode tentar abrir esse site em diferentes dispositivos ou aumentar e
+      diminuir o zoom
+    </p>
+    <picture>
+      <source
+        media="(max-width: 750px)"
+        srcset="imagens/P.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="imagens/M.png"
+        type="image/png"
+      />
+      <img src="imagens/G.png" alt="Foto tamanho G" />
+    </picture>
+    <hr />
+    <h1>Reproduzir aúdio</h1>
+    <audio src=""></audio>
+
+    <p>
+      Song: Cartoon, Jéja - On & On (feat. Daniel Levi) [NCS Release] <br />
+      Music provided by NoCopyrightSounds <br />
+      Free Download/Stream:
+      <a href="http://ncs.io/onandon" target="_blank" rel="external"
+        >http://ncs.io/onandon</a
+      >
+      <br />
+      Watch:
+      <a href="http://youtu.be/K4DyBUG242c" target="_blank" rel="external"
+        >http://youtu.be/K4DyBUG242c</a
+      >
+      <br />
+    </p>
+    <audio
+      src="Cartoon, Daniel Levi, Jéja - On & On (feat. Daniel Levi) [NCS Release].mp3"
+      controls
+    ></audio>
+  </body>
+</html>
